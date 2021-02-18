@@ -56,13 +56,17 @@
 }
 
 
-a{
+a:not(.testo2 a){
     display: inline-block;
     text-decoration: none;
     color:white;
 }
 a:hover:not(.bottone a){
     color:#d3d3d3;
+}
+
+a.bottone.verde.big:hover{
+    color:white;
 }
 .testo a:hover{
     color:white;
@@ -196,6 +200,31 @@ h1{
     height: 2px;
     background-color: #808080;
     margin:20px 35%;
+}
+/* Sezione con immagine da una parte e il testo dall'altra parte. */
+.scopri_livello{
+    position: relative;
+    height: 400px;
+}
+.testo2{
+    position: absolute;
+    top:0;
+    left:50%;
+    
+}
+.testo2 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.testo2 p{
+    color:#808080;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.scopri_livello img{
+    width: 40%;
+    margin:0 10% 60px 0;
 }
 
 
