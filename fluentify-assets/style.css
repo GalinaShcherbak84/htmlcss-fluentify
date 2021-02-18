@@ -239,7 +239,7 @@ footer .container{
 footer .container a{
     position: absolute;
     top:50%;
-    right: 0;
+    right:10%;
     transform: translateY(-50%);
 }
 
@@ -255,7 +255,7 @@ footer h2{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    right: 300px;
+    right: 400px;
 
     width: 300px;
     height: 30px;
@@ -283,6 +283,11 @@ footer h2{
     width: 20%;
     height: 30px;
     border-bottom: 2px solid #808080;
+}
+#help{
+    position: fixed;
+    bottom: 0;
+    right: 10%;
 }
 
 
