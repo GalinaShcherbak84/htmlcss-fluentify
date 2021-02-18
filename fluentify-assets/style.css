@@ -201,7 +201,7 @@ h1{
     background-color: #808080;
     margin:20px 35%;
 }
-/* Sezione con immagine da una parte e il testo dall'altra parte. */
+/* Sezione con l'immagine da una parte e il testo dall'altra parte. */
 .scopri_livello{
     position: relative;
     height: 400px;
@@ -226,6 +226,65 @@ h1{
     width: 40%;
     margin:0 10% 60px 0;
 }
+/* footer */
+footer{
+    height: 200px;
+    background-color: #d3d3d3;
+}
+    
+footer .container{
+    height:200px;
+    position: relative;
+}
+footer .container a{
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+footer h2{
+    font-size: 30px;
+    position: absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+}
+.container .form{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 300px;
+
+    width: 300px;
+    height: 30px;
+    color: #808080;
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 5px 0;
+
+}
+.form p{
+    height: 30px;
+    width: 30%;
+}
+.form .select{
+    height: 30px;
+    width: 50%;
+    border-bottom: 2px solid #808080;
+}
+.freccia{
+    color:#808080;
+    background-image: url(./img/caret-down-solid.svg);
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 30px;
+    border-bottom: 2px solid #808080;
+}
+
 
 
 
